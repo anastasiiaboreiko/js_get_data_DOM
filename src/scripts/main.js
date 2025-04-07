@@ -16,8 +16,8 @@ const average = Math.floor(
 
 const classTotal = document.querySelector('.total-population');
 
-classTotal.replaceWith(total);
+classTotal.textContent = total;
 
 const classAverage = document.querySelector('.average-population');
 
-classAverage.replaceWith(average);
+classAverage.textContent = average;
